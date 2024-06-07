@@ -90,6 +90,17 @@
             margin-bottom: 15px;
             margin-left: 20px;
         }
+
+        li {
+            font-weight: normal; 
+        }
+
+        .no-bullets {
+            list-style-type: none;
+            padding-left: 0; /* Optionnel: pour enlever l'espacement à gauche */
+        }
+
+
     </style>
 </head>
 
@@ -101,7 +112,7 @@
         <p><span class="bold">Nom de l'équipe:</span> Équipe 2105's survivors</p>
         <p>
             <a href="https://github.com/hcmbn7/tp1_2255">Lien vers dépôt GitHub</a><br>
-            <a href="example.vpp">Lien vers fichiers Visual Paradigm</a>
+            <a href="robotic.svg">Lien vers fichiers Visual Paradigm</a>
         </p>
         <p>
             <span class="bold">Nom:</span> Hicham Bennour<br>
@@ -278,9 +289,10 @@
                 <li>L'utilisateur accède à la page d'inscription du site Robotix.</li>
                 <li>L'utilisateur remplit le formulaire d'inscription avec les informations requises (nom, prénom, pseudo unique, adresse courriel, téléphone, nom de la compagnie).</li>
                 <li>L'utilisateur soumet le formulaire.</li>
-                <li>Le système vérifie les informations et enregistre l'utilisateur dans la base de données.</li>
+                <li>Le système vérifie les informations et enregistre l'utilisateur dans la base de données en tant qu'utilisateur.</li>
                 <li>Le système envoie un email de confirmation à l'utilisateur.</li>
             </ol>
+
             <strong>Scénarios alternatifs :</strong>
             <ol>
                 <li>a. Le formulaire est incomplet ou contient des erreurs.</li>
@@ -289,23 +301,30 @@
             <strong>Postconditions :</strong> L'utilisateur est enregistré et reçoit un email de confirmation.
         </p>
 
-        <h2>Cas d'utilisation 1</h2>
+        <h2>S'inscrire comme fournisseur</h2>
         <p>
-            <b>Nom: </b><br>
-            <b>But: </b><br>
-            <b>Acteurs: </b><br>
-            <b>Préconditions: </b><br>
-            <b>Scénario principal</b><br>
-            1. <br>
-            2. <br>
-            3. <br>
-            4. <br>
-            5. <br>
-            <b>Scénario alternatif</b><br>
-            8a. <br>
-            &nbsp;&nbsp;8a.1. <br>
-            9a. <br>
-            &nbsp;&nbsp;9a.1. <br>
+            <strong>Nom: </strong><span>S'inscrire comme fournisseur. </span><br>
+            <strong>But: </strong><span>Rentré l'utilisateur en tant que fournisseur </span><br>
+            <strong>Acteurs: </strong><span> Fournisseur </span><br>
+            <strong>Préconditions: </strong><span>Avoir une compagnie.</span><br>
+            <strong>Scénario principal:</strong>
+            <ol>
+                <li>L'utilisateur accède à la page d'inscription du site Robotix.</li>
+                <li>Le système vérifie que l'utilisateur possè bel et bien un compagnie.</li>
+                <li>L'utilisateur remplit le formulaire d'inscription avec les informations requises (nom, prénom, pseudo unique, adresse courriel, téléphone, nom de la compagnie).</li>
+                <li>Le système vérifie les informations et enregistre l'utilisateur dans la base de données en tant que fournisseur</li>
+                <li>Le système envoie un email de confirmation à l'utilisateur.</li>
+                <li>Le système retourne le nouveau fournisseur en question dans la liste de fournisseur disponible en filtrant ses spécifications.</li>
+            </ol>
+            <strong>Scénarios alternatifs :</strong>            
+            <ul class="no-bullets">
+                <li>2a.   L'utilisateur n'a pas de compagnie</li>
+                <li>2a.1. Le système refuse l'inscription de l'utilisateur</li>
+                <li>2a.2. Le système retourne que l'utilisateur ne peut pas s'inscrire en tant que fournisseur.</li>
+                <li>2a.3. Le système propose à l'utilisateur de s'incrire en tant qu'utilisateur.</li>
+            </ul>
+            <strong>Postconditions :</strong> Le fournisseur est enregistré, reçoit un email de confirmation et se retrouve dans la liste filtrée de fournisseur.
+            
         </p>
         <h2>Cas d'utilisation 2</h2>
         <p>
@@ -319,7 +338,7 @@
             3. <br>
             4. <br>
             5. <br>
-            <b>Scénario alternatif</b><br>
+            <strong>Scénario alternatif</strong><br>
             8a. <br>
             &nbsp;&nbsp;8a.1. <br>
             9a. <br>
@@ -361,4 +380,3 @@
 </body>
 
 </html>
-```
