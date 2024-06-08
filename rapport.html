@@ -48,7 +48,8 @@
             margin: 20px 0;
         }
 
-        th, td {
+        th,
+        td {
             padding: 10px;
             text-align: left;
         }
@@ -79,7 +80,7 @@
         .bold {
             font-weight: bold;
         }
-        
+
         dt {
             font-weight: bold;
             margin-top: 10px;
@@ -89,18 +90,27 @@
             margin-bottom: 15px;
             margin-left: 20px;
         }
+        
+        li {
+            font-weight: normal; 
+        }
+
+        .no-bullets {
+            list-style-type: none;
+            padding-left: 0; /* Optionnel: pour enlever l'espacement à gauche */
+        }
     </style>
 </head>
 
 <body>
     <h1>IFT 2255 - Été 2024 - Devoir 1</h1>
 
-    <div class="info-section">
+      <div class="info-section">
         <h2>Information générale</h2>
         <p><span class="bold">Nom de l'équipe:</span> Équipe 2105's survivors</p>
         <p>
             <a href="https://github.com/hcmbn7/tp1_2255">Lien vers dépôt GitHub</a><br>
-            <a href="example.vpp">Lien vers fichiers Visual Paradigm</a>
+            <a href="robotic.svg">Lien vers fichiers Visual Paradigm</a>
         </p>
         <p>
             <span class="bold">Nom:</span> Hicham Bennour<br>
@@ -110,8 +120,8 @@
         </p>
         <p>
             <span class="bold">Nom:</span> De-Webertho Dieudonné<br>
-            <span class="bold">Matricule:</span> 56781234<br>
-            <span class="bold">Courriel:</span> ahmedmokadde@iro.umontreal.ca<br>
+            <span class="bold">Matricule:</span> 20262379<br>
+            <span class="bold">Courriel:</span> de-webertho.dieudonne@umontreal.ca<br>
             <span class="bold">Temps mis:</span> 40 heures
         </p>
         <p>
@@ -122,11 +132,12 @@
         </p>
         <p>
             <span class="bold">Nom:</span> Richard Lao<br>
-            <span class="bold">Matricule:</span> 56781234<br>
-            <span class="bold">Courriel:</span> ahmedmokadde@iro.umontreal.ca<br>
+            <span class="bold">Matricule:</span> 20278343<br>
+            <span class="bold">Courriel:</span> richard.lao.1@umontreal.ca<br>
             <span class="bold">Temps mis:</span> 40 heures
         </p>
     </div>
+
 
     <div class="info-section">
         <h2>Distribution des tâches</h2>
@@ -135,8 +146,10 @@
             <thead>
                 <tr>
                     <th class="first_col">Tâche</th>
-                    <th>Edouard</th>
-                    <th>Ahmed</th>
+                    <th>Hicham Bennour</th>
+                    <th>De-Webertho Dieudonné</th>
+                    <th>Mohammed Amine El Masdouki</th>
+                    <th>Richard Lao</th>
                 </tr>
             </thead>
             <tbody>
@@ -144,19 +157,62 @@
                     <td class="first_col">Diagramme de classe</td>
                     <td>Classes, associations, attributs (50%)</td>
                     <td>Méthodes, contraintes (50%)</td>
+                    <td>Classes, associations, attributs (50%)</td>
+                    <td>Méthodes, contraintes (50%)</td>
                 </tr>
                 <tr>
                     <td class="first_col">Implémentation</td>
-                    <td>UI (30%)</td>
-                    <td>Logique (70%)</td>
+                    <td>Premier</td>
+                    <td>Deuxième</td>
+                    <td>Troisième</td>
+                    <td>Quatrième</td>
+                </tr>
+                <tr>
+                    <td class="first_col">Glossaire</td>
+                    <td>Premier</td>
+                    <td>Deuxième</td>
+                    <td>Troisième</td>
+                    <td>Quatrième</td>
+                </tr>
+                <tr>
+                    <td class="first_col">Cas d'utilisation</td>
+                    <td>Premier</td>
+                    <td>Deuxième</td>
+                    <td>Troisième</td>
+                    <td>Quatrième</td>
+                </tr>
+                <tr>
+                    <td class="first_col">Risques</td>
+                    <td>Premier</td>
+                    <td>Deuxième</td>
+                    <td>Troisième</td>
+                    <td>Quatrième</td>
+                </tr>
+                <tr>
+                    <td class="first_col">Exigences non-fonctionnelles</td>
+                    <td>Premier</td>
+                    <td>Deuxième</td>
+                    <td>Troisième</td>
+                    <td>Quatrième</td>
+                </tr>
+                <tr>
+                    <td class="first_col">Bonus</td>
+                    <td>Premier</td>
+                    <td>Deuxième</td>
+                    <td>Troisième</td>
+                    <td>Quatrième</td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <div class="info-section">
+
+   <div class="info-section">
         <h2>Glossaire</h2>
         <dl>
+            <dt>Robotix</dt>
+            <dd>Système de gestion pour contrôler, monitorer, et optimiser l'utilisation de robots dans divers secteurs tels que l'industrie, la santé et l'agriculture.</dd>
+
             <dt>Utilisateur</dt>
             <dd>Personne inscrite dans le système Robotix qui peut contrôler des robots, allouer des tâches, et visualiser des métriques sur l'utilisation des robots.</dd>
 
@@ -187,7 +243,7 @@
             <dt>Inscription</dt>
             <dd>Processus par lequel un nouvel utilisateur ou fournisseur est ajouté au système, en fournissant des données personnelles ou d'entreprise.</dd>
 
-            <dt>Profil</dt>
+            <dt>Profil utilisateur</dt>
             <dd>Informations identifiant un utilisateur, incluant nom, prénom, pseudo, adresse courriel, et numéro de téléphone.</dd>
 
             <dt>Fournisseur</dt>
@@ -199,31 +255,126 @@
             <dt>Capteurs</dt>
             <dd>Dispositifs électroniques installés sur les robots pour recueillir des données en temps réel sur leur état et leur environnement.</dd>
 
+            <dt>Gestion des erreurs</dt>
+            <dd>Système dans Robotix destiné à identifier, signaler et corriger les anomalies ou défaillances dans le fonctionnement des robots.</dd>
+
             <dt>Activité</dt>
             <dd>Ensemble de tâches organisées autour d'un objectif commun, comme l'éducation, le jeu, ou la création, auquel les robots peuvent être assignés.</dd>
+
+            <dt>Interface en ligne de commande</dt>
+            <dd>Mode d'interaction avec Robotix où les utilisateurs entrent des commandes textuelles pour effectuer des opérations.</dd>
+
+            <dt>Connexion Wi-Fi et Bluetooth</dt>
+            <dd>Technologies sans fil permettant aux robots de communiquer entre eux ou avec la plateforme Robotix pour le transfert de données et le contrôle à distance.</dd>
 
             <dt>Alertes</dt>
             <dd>Notifications générées par Robotix pour informer les utilisateurs de problèmes, de mises à jour ou d'autres informations pertinentes concernant les robots.</dd>
         </dl>
-        
     </div>
 
     <div class="info-section">
         <h2>Hypothèses</h2>
-        <p>J'ai supposé que...</p>
+        <p>
     </div>
 
     <div class="info-section">
-        <h2>Tâche 1</h2>
-        <p>Voici ma solution pour la tâche 1.</p>
-        <ul>
-            <li>Voici un <a href="file1.txt">lien</a> vers les fichiers.</li>
-            <li>Images affichées directement.</li>
-        </ul>
+        <h2>S'inscrire comme utilisateur</h2>
+        <p>
+            <strong>Cas d'utilisation :</strong> S'inscrire comme utilisateur<br>
+            <strong>But :</strong> Permettre à une personne de s'inscrire en tant qu'utilisateur du système.<br>
+            <strong>Préconditions :</strong> Aucun.<br>
+            <strong>Acteurs :</strong> Utilisateur (principal)<br>
+            <strong>Scénario principal :</strong>
+            <ol>
+                <li>L'utilisateur accède à la page d'inscription du site Robotix.</li>
+                <li>L'utilisateur remplit le formulaire d'inscription avec les informations requises (nom, prénom, pseudo unique, adresse courriel, téléphone, nom de la compagnie).</li>
+                <li>L'utilisateur soumet le formulaire.</li>
+                <li>Le système vérifie les informations et enregistre l'utilisateur dans la base de données en tant qu'utilisateur.</li>
+                <li>Le système envoie un email de confirmation à l'utilisateur.</li>
+            </ol>
+
+            <strong>Scénarios alternatifs :</strong>
+            <ol>
+                <li>a. Le formulaire est incomplet ou contient des erreurs.</li>
+                <li>b. L'utilisateur reçoit un message d'erreur et doit corriger les informations avant de soumettre à nouveau.</li>
+            </ol>
+            <strong>Postconditions :</strong> L'utilisateur est enregistré et reçoit un email de confirmation.
+        </p>
+
+        <h2>S'inscrire comme fournisseur</h2>
+        <p>
+            <strong>Nom: </strong><span>S'inscrire comme fournisseur. </span><br>
+            <strong>But: </strong><span>Rentré l'utilisateur en tant que fournisseur </span><br>
+            <strong>Acteurs: </strong><span> Fournisseur </span><br>
+            <strong>Préconditions: </strong><span>Avoir une compagnie.</span><br>
+            <strong>Scénario principal:</strong>
+            <ol>
+                <li>L'utilisateur accède à la page d'inscription du site Robotix.</li>
+                <li>Le système vérifie que l'utilisateur possè bel et bien un compagnie.</li>
+                <li>L'utilisateur remplit le formulaire d'inscription avec les informations requises (nom, prénom, pseudo unique, adresse courriel, téléphone, nom de la compagnie).</li>
+                <li>Le système vérifie les informations et enregistre l'utilisateur dans la base de données en tant que fournisseur</li>
+                <li>Le système envoie un email de confirmation à l'utilisateur.</li>
+                <li>Le système retourne le nouveau fournisseur en question dans la liste de fournisseur disponible en filtrant ses spécifications.</li>
+            </ol>
+            <strong>Scénarios alternatifs :</strong>            
+            <ul class="no-bullets">
+                <li>2a.   L'utilisateur n'a pas de compagnie</li>
+                <li>2a.1. Le système refuse l'inscription de l'utilisateur</li>
+                <li>2a.2. Le système retourne que l'utilisateur ne peut pas s'inscrire en tant que fournisseur.</li>
+                <li>2a.3. Le système propose à l'utilisateur de s'incrire en tant qu'utilisateur.</li>
+            </ul>
+            <strong>Postconditions :</strong> Le fournisseur est enregistré, reçoit un email de confirmation et se retrouve dans la liste filtrée de fournisseur.
+            
+        </p>
+        <h2>Cas d'utilisation 2</h2>
+        <p>
+            <b>Nom: </b><br>
+            <b>But: </b><br>
+            <b>Acteurs: </b><br>
+            <b>Préconditions: </b><br>
+            <b>Scénario principal</b><br>
+            1. <br>
+            2. <br>
+            3. <br>
+            4. <br>
+            5. <br>
+            <strong>Scénario alternatif</strong><br>
+            8a. <br>
+            &nbsp;&nbsp;8a.1. <br>
+            9a. <br>
+            &nbsp;&nbsp;9a.1. <br>
+        </p>
+        <h2>Cas d'utilisation 3</h2>
+        <p>
+            <b>Nom: </b><br>
+            <b>But: </b><br>
+            <b>Acteurs: </b><br>
+            <b>Préconditions: </b><br>
+            <b>Scénario principal</b><br>
+            1. <br>
+            2. <br>
+            3. <br>
+            4. <br>
+            5. <br>
+            <b>Scénario alternatif</b><br>
+            8a. <br>
+            &nbsp;&nbsp;8a.1. <br>
+            9a. <br>
+            &nbsp;&nbsp;9a.1. <br>
+        </p>
     </div>
 
     <div class="info-section">
-        <h2>Tâche 2</h2>
+        <h2>Risque</h2>
+        <p>Perte de données utilisateur - Sévérité : Élevée</p>
+        <p>Problèmes de performance sous charge élevée - Sévérité : Moyenne</p>
+        <p>Échec de communication avec les robots - Sévérité : Moyenne</p>
+        <p>Incompatibilité entre différentes composantes de robots - Sévérité : Faible</p>
+        <p>Bugs dans le contrôle des mouvements des robots - Sévérité : Faible</p>
+    </div>
+
+    <div class="info-section">
+        <h2>Exigences non-fonctionnelles</h2>
         <p>...</p>
     </div>
 </body>
