@@ -90,24 +90,24 @@
             margin-bottom: 15px;
             margin-left: 20px;
         }
-
+        
         li {
             font-weight: normal; 
         }
 
         .no-bullets {
             list-style-type: none;
-            padding-left: 0; /* Optionnel: pour enlever l'espacement à gauche */
+            padding-left: 0; 
         }
-
-
+        
+        
     </style>
 </head>
 
 <body>
     <h1>IFT 2255 - Été 2024 - Devoir 1</h1>
 
-    <div class="info-section">
+      <div class="info-section">
         <h2>Information générale</h2>
         <p><span class="bold">Nom de l'équipe:</span> Équipe 2105's survivors</p>
         <p>
@@ -127,18 +127,13 @@
             <span class="bold">Temps mis:</span> 40 heures
         </p>
         <p>
-            <span class="bold">Nom:</span> Mohammed Amine El Masdouki<br>
-            <span class="bold">Matricule:</span> 56781234<br>
-            <span class="bold">Courriel:</span> ahmedmokadde@iro.umontreal.ca<br>
-            <span class="bold">Temps mis:</span> 40 heures
-        </p>
-        <p>
             <span class="bold">Nom:</span> Richard Lao<br>
             <span class="bold">Matricule:</span> 20278343<br>
             <span class="bold">Courriel:</span> richard.lao.1@umontreal.ca<br>
             <span class="bold">Temps mis:</span> 40 heures
         </p>
     </div>
+
 
     <div class="info-section">
         <h2>Distribution des tâches</h2>
@@ -207,7 +202,8 @@
         </table>
     </div>
 
-    <div class="info-section">
+
+   <div class="info-section">
         <h2>Glossaire</h2>
         <dl>
             <dt>Robotix</dt>
@@ -243,9 +239,6 @@
             <dt>Inscription</dt>
             <dd>Processus par lequel un nouvel utilisateur ou fournisseur est ajouté au système, en fournissant des données personnelles ou d'entreprise.</dd>
 
-            <dt>Profil utilisateur</dt>
-            <dd>Informations identifiant un utilisateur, incluant nom, prénom, pseudo, adresse courriel, et numéro de téléphone.</dd>
-
             <dt>Fournisseur</dt>
             <dd>Entreprise qui fournit des composantes ou des robots complets, inscrite dans Robotix pour être accessible aux utilisateurs.</dd>
 
@@ -255,17 +248,8 @@
             <dt>Capteurs</dt>
             <dd>Dispositifs électroniques installés sur les robots pour recueillir des données en temps réel sur leur état et leur environnement.</dd>
 
-            <dt>Gestion des erreurs</dt>
-            <dd>Système dans Robotix destiné à identifier, signaler et corriger les anomalies ou défaillances dans le fonctionnement des robots.</dd>
-
             <dt>Activité</dt>
             <dd>Ensemble de tâches organisées autour d'un objectif commun, comme l'éducation, le jeu, ou la création, auquel les robots peuvent être assignés.</dd>
-
-            <dt>Interface en ligne de commande</dt>
-            <dd>Mode d'interaction avec Robotix où les utilisateurs entrent des commandes textuelles pour effectuer des opérations.</dd>
-
-            <dt>Connexion Wi-Fi et Bluetooth</dt>
-            <dd>Technologies sans fil permettant aux robots de communiquer entre eux ou avec la plateforme Robotix pour le transfert de données et le contrôle à distance.</dd>
 
             <dt>Alertes</dt>
             <dd>Notifications générées par Robotix pour informer les utilisateurs de problèmes, de mises à jour ou d'autres informations pertinentes concernant les robots.</dd>
@@ -278,89 +262,280 @@
     </div>
 
     <div class="info-section">
-        <h2>S'inscrire comme utilisateur</h2>
-        <p>
-            <strong>Cas d'utilisation :</strong> S'inscrire comme utilisateur<br>
-            <strong>But :</strong> Permettre à une personne de s'inscrire en tant qu'utilisateur du système.<br>
-            <strong>Préconditions :</strong> Aucun.<br>
-            <strong>Acteurs :</strong> Utilisateur (principal)<br>
-            <strong>Scénario principal :</strong>
-            <ol>
-                <li>L'utilisateur accède à la page d'inscription du site Robotix.</li>
-                <li>L'utilisateur remplit le formulaire d'inscription avec les informations requises (nom, prénom, pseudo unique, adresse courriel, téléphone, nom de la compagnie).</li>
-                <li>L'utilisateur soumet le formulaire.</li>
-                <li>Le système vérifie les informations et enregistre l'utilisateur dans la base de données en tant qu'utilisateur.</li>
-                <li>Le système envoie un email de confirmation à l'utilisateur.</li>
-            </ol>
+        <ol>
+            <li>
+                <h2>S'inscrire comme utilisateur</h2>
+                <p>
+                    <strong>Cas d'utilisation :</strong> S'inscrire comme utilisateur<br>
+                    <strong>But :</strong> Permettre à une personne de s'inscrire en tant qu'utilisateur du système.<br>
+                    <strong>Préconditions :</strong> Aucun.<br>
+                    <strong>Acteurs :</strong> Utilisateur (principal)<br>
+                    <strong>Scénario principal :</strong>
+                    <ol>
+                        <li>L'utilisateur accède à la page d'inscription du site Robotix.</li>
+                        <li>L'utilisateur remplit le formulaire d'inscription avec les informations requises (nom, prénom, pseudo unique, adresse courriel, téléphone, nom de la compagnie).</li>
+                        <li>L'utilisateur soumet le formulaire.</li>
+                        <li>Le système vérifie les informations et enregistre l'utilisateur dans la base de données en tant qu'utilisateur.</li>
+                        <li>Le système envoie un email de confirmation à l'utilisateur.</li>
+                    </ol>
+                    <br>
 
-            <strong>Scénarios alternatifs :</strong>
-            <ol>
-                <li>a. Le formulaire est incomplet ou contient des erreurs.</li>
-                <li>b. L'utilisateur reçoit un message d'erreur et doit corriger les informations avant de soumettre à nouveau.</li>
-            </ol>
-            <strong>Postconditions :</strong> L'utilisateur est enregistré et reçoit un email de confirmation.
-        </p>
+                    <strong>Scénarios alternatifs :</strong>
+                    <ol>
+                        <li>a. Le formulaire est incomplet ou contient des erreurs.</li>
+                        <li>b. L'utilisateur reçoit un message d'erreur et doit corriger les informations avant de soumettre à nouveau.</li>
+                    </ol>
+                    <br>
+                    <strong>Postconditions :</strong> L'utilisateur est enregistré et reçoit un email de confirmation.
+                </p>
+            </li>
 
-        <h2>S'inscrire comme fournisseur</h2>
-        <p>
-            <strong>Nom: </strong><span>S'inscrire comme fournisseur. </span><br>
-            <strong>But: </strong><span>Rentré l'utilisateur en tant que fournisseur </span><br>
-            <strong>Acteurs: </strong><span> Fournisseur </span><br>
-            <strong>Préconditions: </strong><span>Avoir une compagnie.</span><br>
-            <strong>Scénario principal:</strong>
-            <ol>
-                <li>L'utilisateur accède à la page d'inscription du site Robotix.</li>
-                <li>Le système vérifie que l'utilisateur possè bel et bien un compagnie.</li>
-                <li>L'utilisateur remplit le formulaire d'inscription avec les informations requises (nom, prénom, pseudo unique, adresse courriel, téléphone, nom de la compagnie).</li>
-                <li>Le système vérifie les informations et enregistre l'utilisateur dans la base de données en tant que fournisseur</li>
-                <li>Le système envoie un email de confirmation à l'utilisateur.</li>
-                <li>Le système retourne le nouveau fournisseur en question dans la liste de fournisseur disponible en filtrant ses spécifications.</li>
-            </ol>
-            <strong>Scénarios alternatifs :</strong>            
-            <ul class="no-bullets">
-                <li>2a.   L'utilisateur n'a pas de compagnie</li>
-                <li>2a.1. Le système refuse l'inscription de l'utilisateur</li>
-                <li>2a.2. Le système retourne que l'utilisateur ne peut pas s'inscrire en tant que fournisseur.</li>
-                <li>2a.3. Le système propose à l'utilisateur de s'incrire en tant qu'utilisateur.</li>
-            </ul>
-            <strong>Postconditions :</strong> Le fournisseur est enregistré, reçoit un email de confirmation et se retrouve dans la liste filtrée de fournisseur.
+            <li>
+                <h2>S'inscrire comme fournisseur</h2>
+                <p>
+                    <strong>Nom: </strong><span>S'inscrire comme fournisseur. </span><br>
+                    <strong>But: </strong><span>Rentré l'utilisateur en tant que fournisseur </span><br>
+                    <strong>Acteurs: </strong><span> Fournisseur </span><br>
+                    <strong>Préconditions: </strong><span>Avoir une compagnie.</span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li>L'utilisateur accède à la page d'inscription du site Robotix.</li>
+                        <li>Le système vérifie que l'utilisateur possè bel et bien un compagnie.</li>
+                        <li>L'utilisateur remplit le formulaire d'inscription avec les informations requises (nom, prénom, pseudo unique, adresse courriel, téléphone, nom de la compagnie).</li>
+                        <li>Le système vérifie les informations et enregistre l'utilisateur dans la base de données en tant que fournisseur</li>
+                        <li>Le système envoie un email de confirmation à l'utilisateur.</li>
+                        <li>Le système retourne le nouveau fournisseur en question dans la liste de fournisseur disponible en filtrant ses spécifications.</li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;2a.   L'utilisateur n'a pas de compagnie</li>
+                        <li>&nbsp;&nbsp;&nbsp;2a.1. Le système refuse l'inscription de l'utilisateur</li>
+                        <li>&nbsp;&nbsp;&nbsp;2a.2. Le système retourne que l'utilisateur ne peut pas s'inscrire en tant que fournisseur.</li>
+                        <li>&nbsp;&nbsp;&nbsp;2a.3. Le système propose à l'utilisateur de s'incrire en tant qu'utilisateur.</li>
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> Le fournisseur est enregistré, reçoit un email de confirmation et se retrouve dans la liste filtrée de fournisseur.
+                    
+                </p>
+            </li>
+
+            <li>
+                <h2>Trouver un fournisseur</h2>
+                <p>
+                    <strong>Nom: </strong>Trouver un fournisseur<br>
+                    <strong>But: </strong> Le client doit trouver un fournisseur pour enregistrer un robot ou acheter certains composantes.<br>
+                    <strong>Acteurs: </strong>Utilisateur<br>
+                    <strong>Préconditions: </strong> Qu'il y ait au moins un fournisseur qui s'est inscrit et que l'utilisateur s'est aussi inscrit.<br>
+                    <strong>Scénario principal</strong><br>
+                <ol>
+                        <li>L'utilisateur parcours la liste de fournisseur.</li>
+                        <li>L'utilisateur selectionne le fournisseur qui l'interesse parmi la selection de la liste.</li>
+                        <li>Apres avoir prit connaissance des specifications du fournisseur, l'utilisateur confirme son choix.</li>
+                        <li>L'utilisateur a dorenavant acces au specifications du fournisseur en question depuis le menu.</li>
+                </ol>
+                <br>
+                <strong>Scénarios alternatifs :</strong>
+                <ul class="no-bullets">
+                    <li>&nbsp;&nbsp;&nbsp;3a. L'utilisateur change d'idee et ne veut pas avoir le fournisseur en question.</li>
+                    <li>&nbsp;&nbsp;&nbsp;3a.1 L'utilisateur sort du menu de presentation du fournisseur en question pour retourner dans la liste des fournisseur.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retour a l'etape 1.</li>
+                </ul>
+                <br>
+                <strong>Postconditions :</strong> Les options du fournisseur que l'utilisateur a choisi sont maintenant disponible a partir du menu de base.
+                </p>
+            </li>
+
+
+            <li>
+                <h2>Enregistrer un robot</h2>
+                <p>
+                    <strong>Nom:</strong><span>Enregistrer un robot </span><br>
+                    <strong>But:</strong><span>L'utilisateur peut enregistrer un nouveau robot à sa flotte.</span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal)</span><br>
+                    <strong>Préconditions: </strong><ol>
+                        <li>Être authentifié.</li>
+                        <li>Avoir acheté au minimum un CPU et une autre pièce pour le robot.</li>
+                    </ol><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li>L'utilisateur s'authentifie en entrant son pseudo unique.</li>
+                        <li>Le système vérifie que l'utilisateur est inscrit.</li>
+                        <li>L'utilisateur séléctionne «Afficher l'état des robots.»</li>
+                        <li>L'utilisateur séléctionne «Enregistrer un robot».</li>
+                        <li>L'utilisateur entre le numéro de série du CPU acheté du fournisseur et choisi les autres composantes qu'il veut utiliser.</li>
+                        <li>L'utilisateur entre le nom et le type du robot.</li>
+                        <li>Le système enregistre le robot.</li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;6a.1. L'utilisateur entre le numéro de série du robot et laisse le nom vide.</li>
+                        <li>&nbsp;&nbsp;&nbsp;6a.2. Le système renvoi un message d'erreur à l'utilisateur pour qu'il entre un nom pour le robot.</li>
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> Le robot est enregistré à la flotte. 
+                </p>
+            </li>
             
-        </p>
-        <h2>Trouver un forumisseur</h2>
-        <p>
-            <b>Nom: </b>Trouver un fournisseur<br>
-            <b>But: </b> Le client doit trouver un fournisseur pour enregistrer un robot ou acheter certains composantes.<br>
-            <b>Acteurs: </b>Utilisateur<br>
-            <b>Préconditions: </b> Qu'il y ait au moins un fournisseur qui s'est inscrit et que l'utilisateur s'est aussi inscrit.<br>
-            <b>Scénario principal</b><br>
-           <ol>
-                <li>L'utilisateur parcours la liste de fournisseur.</li>
-                <li>L'utilisateur selectionne </li>
-           </ol>
-            <strong>Scénario alternatif</strong><br>
-            8a. <br>
-            &nbsp;&nbsp;8a.1. <br>
-            9a. <br>
-            &nbsp;&nbsp;9a.1. <br>
-        </p>
-        <h2>Cas d'utilisation 3</h2>
-        <p>
-            <b>Nom: </b><br>
-            <b>But: </b><br>
-            <b>Acteurs: </b><br>
-            <b>Préconditions: </b><br>
-            <b>Scénario principal</b><br>
-            1. <br>
-            2. <br>
-            3. <br>
-            4. <br>
-            5. <br>
-            <b>Scénario alternatif</b><br>
-            8a. <br>
-            &nbsp;&nbsp;8a.1. <br>
-            9a. <br>
-            &nbsp;&nbsp;9a.1. <br>
-        </p>
+            <li>
+                <h2>Acheter des composantes</h2>
+                <p>
+                    <strong>Nom:</strong><span>Acheter des composantes</span><br>
+                    <strong>But:</strong><span>L'utilisateur peut acheter des composantes pour construire et enregistrer un robot.</span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal)</span><br>
+                    <strong>Préconditions: </strong><span></span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li>L'utilisateur s'authentifie en entrant son pseudo unique.</li>
+                        <li>Le système vérifie que l'utilisateur est inscrit.</li>
+                        <li>L'utilisateur séléctionne «Acheter des composantes»</li>
+                        <li>Le système renvoi une liste de composantes disponible.</li>
+                        <li>L'utilisateur séléctionne la composante qu'il souhaite acheter.</li>
+                        <li>Le système ajoute la composante au compte de l'utilisateur.</li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;5.a.1. L'utilisateur séléctionne une composante qui n'est pas présente dans la liste.</li>
+                        <li>&nbsp;&nbsp;&nbsp;5.a.2. Le système envoi un message d'erreur indiquant que la composante n'existe pas.</li>
+                        <li>&nbsp;&nbsp;&nbsp;5.a.3. L'utilisateur entre une composante valide.</li>
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> La composante achetée par l'utilisateur est ajoutée à son compte et est disponible pour être utilisée dans un robot.
+                </p>
+            </li>
+            <li>
+                <h2>Afficher l'état de mes robots</h2>
+                <p>
+                    <strong>Nom:</strong><span>Afficher l'état de mes robots</span><br>
+                    <strong>But:</strong><span>L'utilisateur peut afficher et consulter l'état de ses robots.</span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal)</span><br>
+                    <strong>Préconditions: </strong><span>Être authentifié</span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li>L'utilisateur s'authentifie en entrant son pseudo unique.</li>
+                        <li>Le système vérifie que l'utilisateur est inscrit.</li>
+                        <li>L'utilisateur séléctionne «Afficher l'état de mes robots».</li>
+                        <li>L'utilisateur séléctionne «Afficher les métriques de ma flotte».</li>
+                        <li>Le système renvoi l'état de chacun des robots dans la flotte.</li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;5.a.1. Le système renvoi un message indiquant que l'utilisateur n'a aucun robot enregistré.</li>
+
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> Aucune.
+                </p>
+            </li>
+
+            <li>
+                <h2>Contrôler les mouvements</h2>
+                <p>
+                    <strong>Nom: </strong><span>Contrôler les mouvements</span><br>
+                    <strong>But:</strong><span>L'utilisateur lance les mouvements qu'il veut que le robot fasse.</span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal), Robot (secondaire)</span><br>
+                    <strong>Préconditions: </strong><span>Le robot possède les composantes nécessaires pour faire les mouvements demandés.</span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li>L'utilisateur accède au menu pour contrôler les mouvements de ses robots à partir du menu.</li>
+                        <li>L'utilisateur sélectionne le robot en question.</li>
+                        <li>L'utilisateur selectionne le mouvement désiré pour son robot.</li>
+                        <li>L'utilisateur rentre les paramètres demandés pour le lancement du mouvement.</li>
+                        <li>L'utilisateur confirme le lancement du mouvement.</li>   
+                        <li>Le robot accomplit le mouvement convoité.</li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;3.a. L'utilisateur ne peut pas choisir le mouvement voulu car son robot n'a pas les composantes nécessaire pour le faire. </li>
+                        <li>&nbsp;&nbsp;&nbsp;3.a.1. L'utilisateur doit faire le cas d'utilisation "Acheter des composantes" pour les composantes manquantes.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retour a l'etape 1. </li>
+
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> Le robot accomplit le mouvement convoité.
+                </p>
+            </li>
+
+            <li>
+                <h2>Titre du cas</h2>
+                <p>
+                    <strong>Nom:</strong><span></span><br>
+                    <strong>But:</strong><span></span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal)</span><br>
+                    <strong>Préconditions: </strong><span></span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li>.</li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;</li>
+
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> 
+                </p>
+            </li>
+
+            <li>
+                <h2>Titre du cas</h2>
+                <p>
+                    <strong>Nom:</strong><span></span><br>
+                    <strong>But:</strong><span></span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal)</span><br>
+                    <strong>Préconditions: </strong><span></span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li>.</li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;</li>
+
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> 
+                </p>
+            </li>
+
+            <li>
+                <h2>Titre du cas</h2>
+                <p>
+                    <strong>Nom:</strong><span></span><br>
+                    <strong>But:</strong><span></span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal)</span><br>
+                    <strong>Préconditions: </strong><span></span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li>.</li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;</li>
+
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> 
+                </p>
+            </li>
+        </ol>
     </div>
 
     <div class="info-section">
@@ -374,8 +549,15 @@
 
     <div class="info-section">
         <h2>Exigences non-fonctionnelles</h2>
-        <p>...</p>
+        <p><ol>
+            <li><strong>Utilisabilité:</strong> Le logiciel doit être facile à apprendre et à naviguer pour l'utilisateur.</li>
+            <li><strong>Fiabilité:</strong> Le système doit permettre de prévenir le maximum d'erreur en fournissant des messages clairs à l'utilisateur.</li>
+            <li><strong>Fiabilité:</strong> Le système doit permettre d'enregistrer et d'utiliser des données sans problème.</li>
+            <li><strong>Performance</strong> Le système doit permettre l'alternance entre les comptes fournisseur et utilisateur sans perte de données.</li>
+            <li><strong>Maintenabilité</strong> Le logiciel doit être bien organisé et documenté pour permettre l'ajout de fonctionnalité ou la modification.</li>
+        </ol></p>
     </div>
 </body>
 
 </html>
+
