@@ -100,9 +100,7 @@
             padding-left: 0; 
         }
         
-        .large-list {
-      font-size: 1.5em; /* La taille d'un titre h2 est généralement 1.5em */
-        }
+        
     </style>
 </head>
 
@@ -264,7 +262,7 @@
     </div>
 
     <div class="info-section">
-        <ol class="large-list">
+        <ol>
             <li>
                 <h2>S'inscrire comme utilisateur</h2>
                 <p>
@@ -280,12 +278,14 @@
                         <li>Le système vérifie les informations et enregistre l'utilisateur dans la base de données en tant qu'utilisateur.</li>
                         <li>Le système envoie un email de confirmation à l'utilisateur.</li>
                     </ol>
+                    <br>
 
                     <strong>Scénarios alternatifs :</strong>
                     <ol>
                         <li>a. Le formulaire est incomplet ou contient des erreurs.</li>
                         <li>b. L'utilisateur reçoit un message d'erreur et doit corriger les informations avant de soumettre à nouveau.</li>
                     </ol>
+                    <br>
                     <strong>Postconditions :</strong> L'utilisateur est enregistré et reçoit un email de confirmation.
                 </p>
             </li>
@@ -306,20 +306,22 @@
                         <li>Le système envoie un email de confirmation à l'utilisateur.</li>
                         <li>Le système retourne le nouveau fournisseur en question dans la liste de fournisseur disponible en filtrant ses spécifications.</li>
                     </ol>
+                    <br>
                     <strong>Scénarios alternatifs :</strong>            
                     <ul class="no-bullets">
-                        <li>2a.   L'utilisateur n'a pas de compagnie</li>
-                        <li>2a.1. Le système refuse l'inscription de l'utilisateur</li>
-                        <li>2a.2. Le système retourne que l'utilisateur ne peut pas s'inscrire en tant que fournisseur.</li>
-                        <li>2a.3. Le système propose à l'utilisateur de s'incrire en tant qu'utilisateur.</li>
+                        <li>&nbsp;&nbsp;&nbsp;2a.   L'utilisateur n'a pas de compagnie</li>
+                        <li>&nbsp;&nbsp;&nbsp;2a.1. Le système refuse l'inscription de l'utilisateur</li>
+                        <li>&nbsp;&nbsp;&nbsp;2a.2. Le système retourne que l'utilisateur ne peut pas s'inscrire en tant que fournisseur.</li>
+                        <li>&nbsp;&nbsp;&nbsp;2a.3. Le système propose à l'utilisateur de s'incrire en tant qu'utilisateur.</li>
                     </ul>
+                    <br>
                     <strong>Postconditions :</strong> Le fournisseur est enregistré, reçoit un email de confirmation et se retrouve dans la liste filtrée de fournisseur.
                     
                 </p>
             </li>
 
             <li>
-                <h2>Trouver un forunisseur</h2>
+                <h2>Trouver un fournisseur</h2>
                 <p>
                     <strong>Nom: </strong>Trouver un fournisseur<br>
                     <strong>But: </strong> Le client doit trouver un fournisseur pour enregistrer un robot ou acheter certains composantes.<br>
@@ -332,11 +334,13 @@
                         <li>Apres avoir prit connaissance des specifications du fournisseur, l'utilisateur confirme son choix.</li>
                         <li>L'utilisateur a dorenavant acces au specifications du fournisseur en question depuis le menu.</li>
                 </ol>
+                <br>
                 <strong>Scénarios alternatifs :</strong>
                 <ul class="no-bullets">
-                    <li>3a L'utilisateur change d'idee et ne veut pas avoir le fournisseur en question.</li>
-                    <li>3a.1 L'utilisateur sort du menu de presentation du fournisseur en question pour retourner dans la liste des fournisseur.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retour a l'etape 1.</li>
+                    <li>&nbsp;&nbsp;&nbsp;3a. L'utilisateur change d'idee et ne veut pas avoir le fournisseur en question.</li>
+                    <li>&nbsp;&nbsp;&nbsp;3a.1 L'utilisateur sort du menu de presentation du fournisseur en question pour retourner dans la liste des fournisseur.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retour a l'etape 1.</li>
                 </ul>
+                <br>
                 <strong>Postconditions :</strong> Les options du fournisseur que l'utilisateur a choisi sont maintenant disponible a partir du menu de base.
                 </p>
             </li>
@@ -362,11 +366,13 @@
                         <li>L'utilisateur entre le nom et le type du robot.</li>
                         <li>Le système enregistre le robot.</li>
                     </ol>
+                    <br>
                     <strong>Scénarios alternatifs :</strong>            
                     <ul class="no-bullets">
-                        <li>6a.1. L'utilisateur entre le numéro de série du robot et laisse le nom vide.</li>
-                        <li>6a.2. Le système renvoi un message d'erreur à l'utilisateur pour qu'il entre un nom pour le robot.</li>
+                        <li>&nbsp;&nbsp;&nbsp;6a.1. L'utilisateur entre le numéro de série du robot et laisse le nom vide.</li>
+                        <li>&nbsp;&nbsp;&nbsp;6a.2. Le système renvoi un message d'erreur à l'utilisateur pour qu'il entre un nom pour le robot.</li>
                     </ul>
+                    <br>
                     <strong>Postconditions :</strong> Le robot est enregistré à la flotte. 
                 </p>
             </li>
@@ -387,12 +393,14 @@
                         <li>L'utilisateur séléctionne la composante qu'il souhaite acheter.</li>
                         <li>Le système ajoute la composante au compte de l'utilisateur.</li>
                     </ol>
+                    <br>
                     <strong>Scénarios alternatifs :</strong>            
                     <ul class="no-bullets">
-                        <li>5.a.1. L'utilisateur séléctionne une composante qui n'est pas présente dans la liste.</li>
-                        <li>5.a.2. Le système envoi un message d'erreur indiquant que la composante n'existe pas.</li>
-                        <li>5.a.3. L'utilisateur entre une composante valide.</li>
+                        <li>&nbsp;&nbsp;&nbsp;5.a.1. L'utilisateur séléctionne une composante qui n'est pas présente dans la liste.</li>
+                        <li>&nbsp;&nbsp;&nbsp;5.a.2. Le système envoi un message d'erreur indiquant que la composante n'existe pas.</li>
+                        <li>&nbsp;&nbsp;&nbsp;5.a.3. L'utilisateur entre une composante valide.</li>
                     </ul>
+                    <br>
                     <strong>Postconditions :</strong> La composante achetée par l'utilisateur est ajoutée à son compte et est disponible pour être utilisée dans un robot.
                 </p>
             </li>
@@ -411,12 +419,120 @@
                         <li>L'utilisateur séléctionne «Afficher les métriques de ma flotte».</li>
                         <li>Le système renvoi l'état de chacun des robots dans la flotte.</li>
                     </ol>
+                    <br>
                     <strong>Scénarios alternatifs :</strong>            
                     <ul class="no-bullets">
-                        <li>5.a.1. Le système renvoi un message indiquant que l'utilisateur n'a aucun robot enregistré.</li>
+                        <li>&nbsp;&nbsp;&nbsp;5.a.1. Le système renvoi un message indiquant que l'utilisateur n'a aucun robot enregistré.</li>
 
                     </ul>
+                    <br>
                     <strong>Postconditions :</strong> Aucune.
+                </p>
+            </li>
+
+            <li>
+                <h2>Contrôler les mouvements</h2>
+                <p>
+                    <strong>Nom: </strong><span>Contrôler les mouvements</span><br>
+                    <strong>But:</strong><span>L'utilisateur lance les mouvements qu'il veut que le robot fasse.</span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal), Robot (secondaire)</span><br>
+                    <strong>Préconditions: </strong><span>Le robot possède les composantes nécessaires pour faire les mouvements demandés.</span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li>L'utilisateur accède au menu pour contrôler les mouvements de ses robots à partir du menu.</li>
+                        <li>L'utilisateur sélectionne le robot en question.</li>
+                        <li>L'utilisateur selectionne le mouvement désiré pour son robot.</li>
+                        <li>L'utilisateur rentre les paramètres demandés pour le lancement du mouvement.</li>
+                        <li>L'utilisateur confirme le lancement du mouvement.</li>   
+                        <li>Le robot accomplit le mouvement convoité.</li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;3.a. L'utilisateur ne peut pas choisir le mouvement voulu car son robot n'a pas les composantes nécessaire pour le faire. </li>
+                        <li>&nbsp;&nbsp;&nbsp;3.a.1. L'utilisateur doit faire le cas d'utilisation "Acheter des composantes" pour les composantes manquantes.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retour a l'etape 1. </li>
+
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> Le robot accomplit le mouvement convoité.
+                </p>
+            </li>
+
+            <li>
+                <h2>Titre du cas</h2>
+                <p>
+                    <strong>Nom:</strong><span></span><br>
+                    <strong>But:</strong><span></span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal)</span><br>
+                    <strong>Préconditions: </strong><span></span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li>.</li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;</li>
+
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> 
+                </p>
+            </li>
+
+            <li>
+                <h2>Titre du cas</h2>
+                <p>
+                    <strong>Nom:</strong><span></span><br>
+                    <strong>But:</strong><span></span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal)</span><br>
+                    <strong>Préconditions: </strong><span></span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li>.</li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;</li>
+
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> 
+                </p>
+            </li>
+
+            <li>
+                <h2>Titre du cas</h2>
+                <p>
+                    <strong>Nom:</strong><span></span><br>
+                    <strong>But:</strong><span></span><br>
+                    <strong>Acteurs:</strong><span>Utilisateur (principal)</span><br>
+                    <strong>Préconditions: </strong><span></span><br>
+                    <strong>Scénario principal:</strong>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li>.</li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                    <br>
+                    <strong>Scénarios alternatifs :</strong>            
+                    <ul class="no-bullets">
+                        <li>&nbsp;&nbsp;&nbsp;</li>
+
+                    </ul>
+                    <br>
+                    <strong>Postconditions :</strong> 
                 </p>
             </li>
         </ol>
