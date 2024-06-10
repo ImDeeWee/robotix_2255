@@ -374,7 +374,7 @@
                     <strong>Nom:</strong><span>Acheter des composantes</span><br>
                     <strong>But:</strong><span>L'utilisateur peut acheter des composantes pour construire et enregistrer un robot.</span><br>
                     <strong>Acteurs:</strong><span>Utilisateur (principal)</span><br>
-                    <strong>Préconditions: </strong><span></span><br>
+                    <strong>Préconditions: </strong><span></span><br> Être authentifié.
                     <strong>Scénario principal:</strong>
                     <ol>
                         <li>L'utilisateur s'authentifie en entrant son pseudo unique.</li>
@@ -452,10 +452,15 @@
             <li>
                 <h2>Créer des tâches</h2>
                 <p>
-                    <strong>Nom:</strong><span>Créer des tâches<</span><br>
+                    <strong>Nom:</strong><span>Créer des tâches</span><br>
                     <strong>But:</strong><span>Permettre à l’utilisateur de créer des tâches spécifiques et de les assigner à un ou plusieurs robots. </span><br>
                     <strong>Acteurs:</strong><span>Utilisateur (principal), Robot (Secondaire)</span><br>
-                    <strong>Préconditions: </strong><span></span><br>
+                    <strong>Préconditions: </strong>
+                        <ol>
+                            <li>Être authentifié.</li>
+                            <li>Avoir au moins un robot d'enregistré.</li>
+                        </ol>
+                    <br>
                     <strong>Scénario principal:</strong>
                     <ol>
                         <li>L'utilisateur accède à l'interface de création des tâches.</li>
