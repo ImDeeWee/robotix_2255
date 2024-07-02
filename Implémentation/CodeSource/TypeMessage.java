@@ -1,0 +1,5 @@
+public enum TypeMessage {
+    CONFIRMATIONINSCRIPTION,
+    NOTIFICATION,
+    COMPTECREER
+}
