@@ -1,4 +1,4 @@
 public enum TypeCompte {
-    UTILISATEUR,
-    FOURNISSEUR
+    Utiliisateur,
+    Fournisseur
 }

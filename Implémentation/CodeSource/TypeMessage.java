@@ -1,5 +1,5 @@
 public enum TypeMessage {
-    CONFIRMATIONINSCRIPTION,
-    NOTIFICATION,
-    COMPTECREER
+    ConfirmationInscritpion,
+    Notification,
+    CompteCreer
 }
