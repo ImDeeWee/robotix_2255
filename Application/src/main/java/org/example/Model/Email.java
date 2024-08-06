@@ -6,6 +6,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
+/**
+ * Cette classe constitue les Emails qui sont utilisés pour confirmer
+ * l'inscription des comptes.
+ * 
+ * @see la Classe Compte
+ */
 public class Email {
     private String type;
     private String courriel;
@@ -19,17 +25,38 @@ public class Email {
     private boolean confirmed;
     private int capaciteFabrication;
 
+    /**
+     * Constructeur de nouvelle Email.
+     * 
+     * @param type                le type de compte à confirmer l'inscription.
+     * @param courriel            le courriel de l'email.
+     * @param pseudo              le pseudo du compte à confirmer l'inscription.
+     * @param motDePasse          le mot de passe de l'email et du compte à
+     *                            confirmer l'inscription.
+     * @param telephone           le numéro de téléphone du compte à confirmer
+     *                            l'inscription.
+     * @param nom                 le nom du compte à confirmer l'inscription.
+     * @param prenom              le prénom du compte à confirmer l'inscription.
+     * @param nomDeCompagnie      le nom de compagnie du compte à confirmer
+     *                            l'inscription.
+     * @param interets            la liste d'intérêts du compte à confirmer
+     *                            l'inscription.
+     * @param confirmed           vrai si l'inscription du compte est déjà
+     *                            confirmer, faux sinon.
+     * @param capaciteFabrication la capacité de fabrication du compte à confirmer
+     *                            l'inscription.
+     */
     public Email(@JsonProperty("type") String type,
-                 @JsonProperty("courriel") String courriel,
-                 @JsonProperty("pseudo") String pseudo,
-                 @JsonProperty("motDePasse") String motDePasse,
-                 @JsonProperty("telephone") String telephone,
-                 @JsonProperty("nom") String nom,
-                 @JsonProperty("prenom") String prenom,
-                 @JsonProperty("nomDeCompagnie") String nomDeCompagnie,
-                 @JsonProperty("interets") ArrayList<String> interets,
-                 @JsonProperty("confirmed") boolean confirmed,
-                 @JsonProperty("capaciteFabrication") int capaciteFabrication) {
+            @JsonProperty("courriel") String courriel,
+            @JsonProperty("pseudo") String pseudo,
+            @JsonProperty("motDePasse") String motDePasse,
+            @JsonProperty("telephone") String telephone,
+            @JsonProperty("nom") String nom,
+            @JsonProperty("prenom") String prenom,
+            @JsonProperty("nomDeCompagnie") String nomDeCompagnie,
+            @JsonProperty("interets") ArrayList<String> interets,
+            @JsonProperty("confirmed") boolean confirmed,
+            @JsonProperty("capaciteFabrication") int capaciteFabrication) {
         this.type = type;
         this.courriel = courriel;
         this.pseudo = pseudo;
