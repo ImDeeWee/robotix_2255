@@ -1,0 +1,404 @@
+{
+    "activites": [
+        {
+            "activites": [
+                {
+                    "dateDebut": "2024-10-11",
+                    "dateFin": "2024-11-12",
+                    "robots": [],
+                    "nom": "Exploration de Mars",
+                    "points": 50
+                },
+                {
+                    "dateDebut": "2024-09-01",
+                    "dateFin": "2024-09-30",
+                    "robots": [],
+                    "nom": "Mission de reconnaissance",
+                    "points": 30
+                },
+                {
+                    "dateDebut": "2024-11-01",
+                    "dateFin": "2024-11-30",
+                    "robots": [],
+                    "nom": "Collecte de données",
+                    "points": 40
+                },
+                {
+                    "dateDebut": "2024-08-15",
+                    "dateFin": "2024-09-15",
+                    "robots": [],
+                    "nom": "Analyse des sols",
+                    "points": 25
+                },
+                {
+                    "dateDebut": "2024-12-01",
+                    "dateFin": "2024-12-31",
+                    "robots": [],
+                    "nom": "Maintenance des équipements",
+                    "points": 35
+                }
+            ],
+            "courriel": "cristiano.ronaldo@example.com"
+        },
+        {
+            "activites": [
+                {
+                    "dateDebut": "2024-10-15",
+                    "dateFin": "2024-11-15",
+                    "robots": [],
+                    "nom": "Transport de marchandises",
+                    "points": 60
+                },
+                {
+                    "dateDebut": "2024-09-20",
+                    "dateFin": "2024-10-20",
+                    "robots": [],
+                    "nom": "Patrouille de sécurité",
+                    "points": 40
+                },
+                {
+                    "dateDebut": "2024-11-05",
+                    "dateFin": "2024-12-05",
+                    "robots": [],
+                    "nom": "Construction de bâtiments",
+                    "points": 70
+                },
+                {
+                    "dateDebut": "2024-08-25",
+                    "dateFin": "2024-09-25",
+                    "robots": [],
+                    "nom": "Recherche et sauvetage",
+                    "points": 55
+                },
+                {
+                    "dateDebut": "2024-12-10",
+                    "dateFin": "2025-01-10",
+                    "robots": [],
+                    "nom": "Surveillance environnementale",
+                    "points": 45
+                }
+            ],
+            "courriel": "lebron.james@example.com"
+        },
+        {
+            "activites": [
+                {
+                    "dateDebut": "2024-11-10",
+                    "dateFin": "2024-12-10",
+                    "robots": [],
+                    "nom": "Cartographie de la région",
+                    "points": 50
+                },
+                {
+                    "dateDebut": "2024-09-05",
+                    "dateFin": "2024-10-05",
+                    "robots": [],
+                    "nom": "Inspection des infrastructures",
+                    "points": 40
+                },
+                {
+                    "dateDebut": "2024-11-20",
+                    "dateFin": "2024-12-20",
+                    "robots": [],
+                    "nom": "Expérience scientifique",
+                    "points": 60
+                },
+                {
+                    "dateDebut": "2024-08-30",
+                    "dateFin": "2024-09-30",
+                    "robots": [],
+                    "nom": "Installation de capteurs",
+                    "points": 35
+                },
+                {
+                    "dateDebut": "2024-12-15",
+                    "dateFin": "2025-01-15",
+                    "robots": [],
+                    "nom": "Collecte d'échantillons",
+                    "points": 45
+                }
+            ],
+            "courriel": "usain.bolt@example.com"
+        },
+        {
+            "activites": [
+                {
+                    "dateDebut": "2024-10-05",
+                    "dateFin": "2024-11-05",
+                    "robots": [],
+                    "nom": "Restauration de l'habitat",
+                    "points": 55
+                },
+                {
+                    "dateDebut": "2024-09-10",
+                    "dateFin": "2024-10-10",
+                    "robots": [],
+                    "nom": "Surveillance des ressources",
+                    "points": 45
+                },
+                {
+                    "dateDebut": "2024-11-15",
+                    "dateFin": "2024-12-15",
+                    "robots": [],
+                    "nom": "Maintenance des systèmes",
+                    "points": 65
+                },
+                {
+                    "dateDebut": "2024-08-20",
+                    "dateFin": "2024-09-20",
+                    "robots": [],
+                    "nom": "Test de communication",
+                    "points": 30
+                },
+                {
+                    "dateDebut": "2024-12-05",
+                    "dateFin": "2025-01-05",
+                    "robots": [],
+                    "nom": "Exploration sous-marine",
+                    "points": 50
+                }
+            ],
+            "courriel": "michael.phelps@example.com"
+        },
+        {
+            "activites": [
+                {
+                    "dateDebut": "2024-10-20",
+                    "dateFin": "2024-11-20",
+                    "robots": [],
+                    "nom": "Projet d'agriculture",
+                    "points": 50
+                },
+                {
+                    "dateDebut": "2024-09-15",
+                    "dateFin": "2024-10-15",
+                    "robots": [],
+                    "nom": "Nettoyage environnemental",
+                    "points": 35
+                },
+                {
+                    "dateDebut": "2024-11-25",
+                    "dateFin": "2024-12-25",
+                    "robots": [],
+                    "nom": "Transport de personnes",
+                    "points": 65
+                },
+                {
+                    "dateDebut": "2024-08-10",
+                    "dateFin": "2024-09-10",
+                    "robots": [],
+                    "nom": "Éducation et formation",
+                    "points": 45
+                },
+                {
+                    "dateDebut": "2024-12-20",
+                    "dateFin": "2025-01-20",
+                    "robots": [],
+                    "nom": "Recherche médicale",
+                    "points": 55
+                }
+            ],
+            "courriel": "serena.williams@example.com"
+        },
+        {
+            "activites": [
+                {
+                    "dateDebut": "2024-10-30",
+                    "dateFin": "2024-11-30",
+                    "robots": [],
+                    "nom": "Construction de routes",
+                    "points": 60
+                },
+                {
+                    "dateDebut": "2024-09-25",
+                    "dateFin": "2024-10-25",
+                    "robots": [],
+                    "nom": "Détection de gaz",
+                    "points": 40
+                },
+                {
+                    "dateDebut": "2024-11-10",
+                    "dateFin": "2024-12-10",
+                    "robots": [],
+                    "nom": "Installation de panneaux solaires",
+                    "points": 70
+                },
+                {
+                    "dateDebut": "2024-08-15",
+                    "dateFin": "2024-09-15",
+                    "robots": [],
+                    "nom": "Enlèvement de débris",
+                    "points": 35
+                },
+                {
+                    "dateDebut": "2024-12-01",
+                    "dateFin": "2025-01-01",
+                    "robots": [],
+                    "nom": "Gestion des déchets",
+                    "points": 50
+                }
+            ],
+            "courriel": "roger.federer@example.com"
+        },
+        {
+            "activites": [
+                {
+                    "dateDebut": "2024-10-05",
+                    "dateFin": "2024-11-05",
+                    "robots": [],
+                    "nom": "Extraction minière",
+                    "points": 60
+                },
+                {
+                    "dateDebut": "2024-09-10",
+                    "dateFin": "2024-10-10",
+                    "robots": [],
+                    "nom": "Analyse des eaux",
+                    "points": 45
+                },
+                {
+                    "dateDebut": "2024-11-15",
+                    "dateFin": "2024-12-15",
+                    "robots": [],
+                    "nom": "Surveillance sismique",
+                    "points": 65
+                },
+                {
+                    "dateDebut": "2024-08-20",
+                    "dateFin": "2024-09-20",
+                    "robots": [],
+                    "nom": "Recherche océanographique",
+                    "points": 30
+                },
+                {
+                    "dateDebut": "2024-12-05",
+                    "dateFin": "2025-01-05",
+                    "robots": [],
+                    "nom": "Cartographie sous-marine",
+                    "points": 50
+                }
+            ],
+            "courriel": "lionel.messi@example.com"
+        },
+        {
+            "activites": [
+                {
+                    "dateDebut": "2024-10-10",
+                    "dateFin": "2024-11-10",
+                    "robots": [],
+                    "nom": "Sauvetage en montagne",
+                    "points": 55
+                },
+                {
+                    "dateDebut": "2024-09-05",
+                    "dateFin": "2024-10-05",
+                    "robots": [],
+                    "nom": "Exploration de cavernes",
+                    "points": 45
+                },
+                {
+                    "dateDebut": "2024-11-20",
+                    "dateFin": "2024-12-20",
+                    "robots": [],
+                    "nom": "Surveillance des avalanches",
+                    "points": 65
+                },
+                {
+                    "dateDebut": "2024-08-25",
+                    "dateFin": "2024-09-25",
+                    "robots": [],
+                    "nom": "Construction de refuges",
+                    "points": 35
+                },
+                {
+                    "dateDebut": "2024-12-10",
+                    "dateFin": "2025-01-10",
+                    "robots": [],
+                    "nom": "Étude de la faune",
+                    "points": 50
+                }
+            ],
+            "courriel": "naomi.osaka@example.com"
+        },
+        {
+            "activites": [
+                {
+                    "dateDebut": "2024-10-20",
+                    "dateFin": "2024-11-20",
+                    "robots": [],
+                    "nom": "Recherche en biologie",
+                    "points": 50
+                },
+                {
+                    "dateDebut": "2024-09-15",
+                    "dateFin": "2024-10-15",
+                    "robots": [],
+                    "nom": "Développement durable",
+                    "points": 35
+                },
+                {
+                    "dateDebut": "2024-11-25",
+                    "dateFin": "2024-12-25",
+                    "robots": [],
+                    "nom": "Énergie renouvelable",
+                    "points": 65
+                },
+                {
+                    "dateDebut": "2024-08-10",
+                    "dateFin": "2024-09-10",
+                    "robots": [],
+                    "nom": "Gestion de l'eau",
+                    "points": 45
+                },
+                {
+                    "dateDebut": "2024-12-20",
+                    "dateFin": "2025-01-20",
+                    "robots": [],
+                    "nom": "Conservation de la biodiversité",
+                    "points": 55
+                }
+            ],
+            "courriel": "lewis.hamilton@example.com"
+        },
+        {
+            "activites": [
+                {
+                    "dateDebut": "2024-10-15",
+                    "dateFin": "2024-11-15",
+                    "robots": [],
+                    "nom": "Recherche en santé",
+                    "points": 60
+                },
+                {
+                    "dateDebut": "2024-09-20",
+                    "dateFin": "2024-10-20",
+                    "robots": [],
+                    "nom": "Analyse des sols",
+                    "points": 40
+                },
+                {
+                    "dateDebut": "2024-11-05",
+                    "dateFin": "2024-12-05",
+                    "robots": [],
+                    "nom": "Surveillance des cultures",
+                    "points": 70
+                },
+                {
+                    "dateDebut": "2024-08-25",
+                    "dateFin": "2024-09-25",
+                    "robots": [],
+                    "nom": "Étude de la végétation",
+                    "points": 55
+                },
+                {
+                    "dateDebut": "2024-12-10",
+                    "dateFin": "2025-01-10",
+                    "robots": [],
+                    "nom": "Gestion forestière",
+                    "points": 45
+                }
+            ],
+            "courriel": "simone.biles@example.com"
+        }
+    ]
+}

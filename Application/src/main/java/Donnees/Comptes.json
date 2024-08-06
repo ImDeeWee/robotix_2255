@@ -1,0 +1,158 @@
+{
+  "comptes" : [ {
+    "type" : "Utilisateur",
+    "courriel" : "cristiano.ronaldo@example.com",
+    "pseudo" : "CR7",
+    "motDePasse" : "password123",
+    "telephone" : "1234567890",
+    "nom" : "Ronaldo",
+    "prenom" : "Cristiano",
+    "nomDeCompagnie" : "CR7 Corporation",
+    "interets" : [ "football", "fitness", "fashion", "philanthropy", "family" ],
+    "followers" : [ ],
+    "following" : [ "KingJames" ]
+  }, {
+    "type" : "Utilisateur",
+    "courriel" : "lebron.james@example.com",
+    "pseudo" : "KingJames",
+    "motDePasse" : "password123",
+    "telephone" : "0987654321",
+    "nom" : "James",
+    "prenom" : "LeBron",
+    "nomDeCompagnie" : "LeBron Inc.",
+    "interets" : [ "basketball", "business", "movies", "philanthropy", "family" ],
+    "followers" : [ "CR7" ],
+    "following" : [ ]
+  }, {
+    "type" : "Utilisateur",
+    "courriel" : "usain.bolt@example.com",
+    "pseudo" : "LightningBolt",
+    "motDePasse" : "password123",
+    "telephone" : "1234509876",
+    "nom" : "Bolt",
+    "prenom" : "Usain",
+    "nomDeCompagnie" : "Bolt Enterprises",
+    "interets" : [ "sprinting", "music", "dancing", "business", "travel" ],
+    "followers" : [ ],
+    "following" : [ ]
+  }, {
+    "type" : "Utilisateur",
+    "courriel" : "michael.phelps@example.com",
+    "pseudo" : "MPhelps",
+    "motDePasse" : "password123",
+    "telephone" : "0987612345",
+    "nom" : "Phelps",
+    "prenom" : "Michael",
+    "nomDeCompagnie" : "Phelps Ventures",
+    "interets" : [ "swimming", "fitness", "mental health", "family", "gaming" ],
+    "followers" : [ ],
+    "following" : [ ]
+  }, {
+    "type" : "Utilisateur",
+    "courriel" : "serena.williams@example.com",
+    "pseudo" : "SerenaW",
+    "motDePasse" : "password123",
+    "telephone" : "5678901234",
+    "nom" : "Williams",
+    "prenom" : "Serena",
+    "nomDeCompagnie" : "Serena Ventures",
+    "interets" : [ "tennis", "fashion", "business", "family", "philanthropy" ],
+    "followers" : [ ],
+    "following" : [ ]
+  }, {
+    "type" : "Utilisateur",
+    "courriel" : "roger.federer@example.com",
+    "pseudo" : "RFed",
+    "motDePasse" : "password123",
+    "telephone" : "3456789012",
+    "nom" : "Federer",
+    "prenom" : "Roger",
+    "nomDeCompagnie" : "Federer Enterprises",
+    "interets" : [ "tennis", "philanthropy", "business", "family", "travel" ],
+    "followers" : [ ],
+    "following" : [ ]
+  }, {
+    "type" : "Utilisateur",
+    "courriel" : "lionel.messi@example.com",
+    "pseudo" : "LeoMessi",
+    "motDePasse" : "password123",
+    "telephone" : "6543210987",
+    "nom" : "Messi",
+    "prenom" : "Lionel",
+    "nomDeCompagnie" : "Messi Corp",
+    "interets" : [ "football", "family", "philanthropy", "fashion", "gaming" ],
+    "followers" : [ ],
+    "following" : [ ]
+  }, {
+    "type" : "Utilisateur",
+    "courriel" : "naomi.osaka@example.com",
+    "pseudo" : "NaomiO",
+    "motDePasse" : "password123",
+    "telephone" : "7654321098",
+    "nom" : "Osaka",
+    "prenom" : "Naomi",
+    "nomDeCompagnie" : "Osaka Enterprises",
+    "interets" : [ "tennis", "fashion", "mental health", "gaming", "philanthropy" ],
+    "followers" : [ ],
+    "following" : [ ]
+  }, {
+    "type" : "Utilisateur",
+    "courriel" : "lewis.hamilton@example.com",
+    "pseudo" : "LHamilton",
+    "motDePasse" : "password123",
+    "telephone" : "4321098765",
+    "nom" : "Hamilton",
+    "prenom" : "Lewis",
+    "nomDeCompagnie" : "Hamilton Inc.",
+    "interets" : [ "racing", "fashion", "music", "philanthropy", "travel" ],
+    "followers" : [ ],
+    "following" : [ ]
+  }, {
+    "type" : "Utilisateur",
+    "courriel" : "simone.biles@example.com",
+    "pseudo" : "SBiles",
+    "motDePasse" : "password123",
+    "telephone" : "8765432109",
+    "nom" : "Biles",
+    "prenom" : "Simone",
+    "nomDeCompagnie" : "Biles Ventures",
+    "interets" : [ "gymnastics", "mental health", "fitness", "fashion", "philanthropy" ],
+    "followers" : [ ],
+    "following" : [ ]
+  }, {
+    "type" : "Fournisseur",
+    "courriel" : "supplier1@techcorp.com",
+    "pseudo" : "TechSupplier1",
+    "motDePasse" : "password123",
+    "telephone" : "1234567890",
+    "capaciteFabrication" : 500
+  }, {
+    "type" : "Fournisseur",
+    "courriel" : "supplier2@innovatech.com",
+    "pseudo" : "InnovatechSupplier",
+    "motDePasse" : "password123",
+    "telephone" : "0987654321",
+    "capaciteFabrication" : 1000
+  }, {
+    "type" : "Fournisseur",
+    "courriel" : "supplier3@futuretech.com",
+    "pseudo" : "FutureTechSupply",
+    "motDePasse" : "password123",
+    "telephone" : "1122334455",
+    "capaciteFabrication" : 750
+  }, {
+    "type" : "Fournisseur",
+    "courriel" : "supplier4@nextgen.com",
+    "pseudo" : "NextGenSupply",
+    "motDePasse" : "password123",
+    "telephone" : "6677889900",
+    "capaciteFabrication" : 1200
+  }, {
+    "type" : "Fournisseur",
+    "courriel" : "supplier5@techinnovators.com",
+    "pseudo" : "TechInnovatorsSupply",
+    "motDePasse" : "password123",
+    "telephone" : "514",
+    "capaciteFabrication" : 900
+  } ]
+}

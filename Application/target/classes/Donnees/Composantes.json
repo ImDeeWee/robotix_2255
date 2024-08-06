@@ -1,0 +1,228 @@
+{
+    "inventaires": [
+        {
+            "composantes": [
+                {
+                    "prix": 200.0,
+                    "description": "Processeur rapide",
+                    "isDisponible": false,
+                    "numeroDeSerie": 1001,
+                    "type": "CPU",
+                    "nom": "CPU Speedster"
+                }
+            ],
+            "isFournisseur": false,
+            "courriel": "cristiano.ronaldo@example.com"
+        },
+        {
+            "composantes": [
+                {
+                    "prix": 60.0,
+                    "description": "Roues pour surfaces lisses",
+                    "isDisponible": true,
+                    "type": "ROUES",
+                    "nom": "Roues SmoothRide"
+                },
+                {
+                    "prix": 230.0,
+                    "description": "Processeur quadricœur",
+                    "isDisponible": true,
+                    "numeroDeSerie": 1003,
+                    "type": "CPU",
+                    "nom": "CPU QuadCore"
+                },
+                {
+                    "prix": 170.0,
+                    "description": "Bras robotique précis",
+                    "isDisponible": true,
+                    "type": "BRAS",
+                    "nom": "Bras PrecisionArm"
+                },
+                {
+                    "prix": 85.0,
+                    "description": "Écran texte LED",
+                    "isDisponible": true,
+                    "type": "ECRANTXT",
+                    "nom": "Écran LEDText"
+                },
+                {
+                    "prix": 120.0,
+                    "description": "Hélice haute efficacité",
+                    "isDisponible": true,
+                    "type": "HELICE",
+                    "nom": "Hélice EfficientProp"
+                }
+            ],
+            "isFournisseur": true,
+            "courriel": "supplier3@futuretech.com"
+        },
+        {
+            "composantes": [
+                {
+                    "prix": 55.0,
+                    "description": "Roues tout-terrain",
+                    "isDisponible": true,
+                    "type": "ROUES",
+                    "nom": "Roues TerrainMaster"
+                },
+                {
+                    "prix": 220.0,
+                    "description": "Processeur double cœur",
+                    "isDisponible": true,
+                    "numeroDeSerie": 1002,
+                    "type": "CPU",
+                    "nom": "CPU DualCore"
+                },
+                {
+                    "prix": 160.0,
+                    "description": "Bras robotique robuste",
+                    "isDisponible": true,
+                    "type": "BRAS",
+                    "nom": "Bras StrongArm"
+                },
+                {
+                    "prix": 80.0,
+                    "description": "Écran GUI tactile",
+                    "isDisponible": true,
+                    "type": "ECRANGUI",
+                    "nom": "Écran TouchDisplay"
+                },
+                {
+                    "prix": 110.0,
+                    "description": "Micro haute sensibilité",
+                    "isDisponible": true,
+                    "type": "MICRO",
+                    "nom": "Micro SensitivityPlus"
+                }
+            ],
+            "isFournisseur": true,
+            "courriel": "supplier2@innovatech.com"
+        },
+        {
+            "composantes": [
+                {
+                    "prix": 70.0,
+                    "description": "Roues ultra légères",
+                    "isDisponible": true,
+                    "type": "ROUES",
+                    "nom": "Roues LightWeight"
+                },
+                {
+                    "prix": 250.0,
+                    "description": "Processeur haute performance",
+                    "isDisponible": true,
+                    "numeroDeSerie": 1005,
+                    "type": "CPU",
+                    "nom": "CPU HighPerformance"
+                },
+                {
+                    "prix": 190.0,
+                    "description": "Bras robotique multifonction",
+                    "isDisponible": true,
+                    "type": "BRAS",
+                    "nom": "Bras MultiArm"
+                },
+                {
+                    "prix": 95.0,
+                    "description": "Écran texte OLED",
+                    "isDisponible": true,
+                    "type": "ECRANTXT",
+                    "nom": "Écran OLEDText"
+                },
+                {
+                    "prix": 140.0,
+                    "description": "Micro à réduction de bruit",
+                    "isDisponible": true,
+                    "type": "MICRO",
+                    "nom": "Micro NoiseCancel"
+                }
+            ],
+            "isFournisseur": true,
+            "courriel": "supplier5@techinnovators.com"
+        },
+        {
+            "composantes": [
+                {
+                    "prix": 65.0,
+                    "description": "Roues résistantes à l'usure",
+                    "isDisponible": true,
+                    "type": "ROUES",
+                    "nom": "Roues Durability"
+                },
+                {
+                    "prix": 240.0,
+                    "description": "Processeur octocœur",
+                    "isDisponible": true,
+                    "numeroDeSerie": 1004,
+                    "type": "CPU",
+                    "nom": "CPU OctaCore"
+                },
+                {
+                    "prix": 180.0,
+                    "description": "Bras robotique extensible",
+                    "isDisponible": true,
+                    "type": "BRAS",
+                    "nom": "Bras ExtendArm"
+                },
+                {
+                    "prix": 90.0,
+                    "description": "Écran GUI haute résolution",
+                    "isDisponible": true,
+                    "type": "ECRANGUI",
+                    "nom": "Écran HighResGUI"
+                },
+                {
+                    "prix": 130.0,
+                    "description": "Hélice à faible bruit",
+                    "isDisponible": true,
+                    "type": "HELICE",
+                    "nom": "Hélice QuietProp"
+                }
+            ],
+            "isFournisseur": true,
+            "courriel": "supplier4@nextgen.com"
+        },
+        {
+            "composantes": [
+                {
+                    "prix": 50.0,
+                    "description": "Roues haute performance",
+                    "isDisponible": true,
+                    "type": "ROUES",
+                    "nom": "Roues UltraGrip"
+                },
+                {
+                    "prix": 200.0,
+                    "description": "Processeur rapide",
+                    "isDisponible": false,
+                    "numeroDeSerie": 1001,
+                    "type": "CPU",
+                    "nom": "CPU Speedster"
+                },
+                {
+                    "prix": 150.0,
+                    "description": "Bras robotique flexible",
+                    "isDisponible": true,
+                    "type": "BRAS",
+                    "nom": "Bras FlexArm"
+                },
+                {
+                    "prix": 75.0,
+                    "description": "Écran texte haute visibilité",
+                    "isDisponible": true,
+                    "type": "ECRANTXT",
+                    "nom": "Écran TextDisplay"
+                },
+                {
+                    "prix": 100.0,
+                    "description": "Haut-parleur puissant",
+                    "isDisponible": true,
+                    "type": "HAUTPARLEUR",
+                    "nom": "Haut-Parleur SonicBoom"
+                }
+            ],
+            "isFournisseur": true,
+            "courriel": "supplier1@techcorp.com"
+        }
+    ]
+}
