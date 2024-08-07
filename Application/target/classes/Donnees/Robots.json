@@ -1,0 +1,374 @@
+{
+    "inventaires": [
+        {
+            "robots": [
+                {
+                    "niveauBatterie": "100%",
+                    "memoire": "16GB",
+                    "cpu": {
+                        "description": "Processeur haute performance",
+                        "isDisponible": true,
+                        "numeroDeSerie": 101,
+                        "prix": 299.99,
+                        "nom": "HighPerformanceCPU"
+                    },
+                    "position": "A1",
+                    "type": "TypeA",
+                    "nom": "RobotA1",
+                    "vitesse": "10m/s",
+                    "consoCPU": "30%"
+                },
+                {
+                    "niveauBatterie": "80%",
+                    "memoire": "32GB",
+                    "cpu": {
+                        "description": "Processeur standard",
+                        "isDisponible": true,
+                        "numeroDeSerie": 102,
+                        "prix": 199.99,
+                        "nom": "StandardCPU"
+                    },
+                    "position": "B2",
+                    "type": "TypeB",
+                    "nom": "RobotB2",
+                    "vitesse": "8m/s",
+                    "consoCPU": "50%"
+                }
+            ],
+            "courriel": "cristiano.ronaldo@example.com"
+        },
+        {
+            "robots": [
+                {
+                    "niveauBatterie": "90%",
+                    "memoire": "8GB",
+                    "cpu": {
+                        "description": "Processeur rapide",
+                        "isDisponible": true,
+                        "numeroDeSerie": 103,
+                        "prix": 249.99,
+                        "nom": "FastCPU"
+                    },
+                    "position": "C3",
+                    "type": "TypeC",
+                    "nom": "RobotC3",
+                    "vitesse": "12m/s",
+                    "consoCPU": "40%"
+                },
+                {
+                    "niveauBatterie": "70%",
+                    "memoire": "16GB",
+                    "cpu": {
+                        "description": "Processeur basse consommation",
+                        "isDisponible": true,
+                        "numeroDeSerie": 104,
+                        "prix": 149.99,
+                        "nom": "LowPowerCPU"
+                    },
+                    "position": "D4",
+                    "type": "TypeD",
+                    "nom": "RobotD4",
+                    "vitesse": "6m/s",
+                    "consoCPU": "20%"
+                }
+            ],
+            "courriel": "lebron.james@example.com"
+        },
+        {
+            "robots": [
+                {
+                    "niveauBatterie": "85%",
+                    "memoire": "12GB",
+                    "cpu": {
+                        "description": "Processeur milieu de gamme",
+                        "isDisponible": true,
+                        "numeroDeSerie": 105,
+                        "prix": 179.99,
+                        "nom": "MidRangeCPU"
+                    },
+                    "position": "E5",
+                    "type": "TypeE",
+                    "nom": "RobotE5",
+                    "vitesse": "9m/s",
+                    "consoCPU": "35%"
+                },
+                {
+                    "niveauBatterie": "95%",
+                    "memoire": "64GB",
+                    "cpu": {
+                        "description": "Processeur haute capacité",
+                        "isDisponible": true,
+                        "numeroDeSerie": 106,
+                        "prix": 399.99,
+                        "nom": "HighCapacityCPU"
+                    },
+                    "position": "F6",
+                    "type": "TypeF",
+                    "nom": "RobotF6",
+                    "vitesse": "15m/s",
+                    "consoCPU": "60%"
+                }
+            ],
+            "courriel": "usain.bolt@example.com"
+        },
+        {
+            "robots": [
+                {
+                    "niveauBatterie": "75%",
+                    "memoire": "32GB",
+                    "cpu": {
+                        "description": "Processeur standard",
+                        "isDisponible": true,
+                        "numeroDeSerie": 107,
+                        "prix": 199.99,
+                        "nom": "StandardCPU"
+                    },
+                    "position": "G7",
+                    "type": "TypeG",
+                    "nom": "RobotG7",
+                    "vitesse": "7m/s",
+                    "consoCPU": "25%"
+                },
+                {
+                    "niveauBatterie": "65%",
+                    "memoire": "16GB",
+                    "cpu": {
+                        "description": "Processeur milieu de gamme",
+                        "isDisponible": true,
+                        "numeroDeSerie": 108,
+                        "prix": 179.99,
+                        "nom": "MidRangeCPU"
+                    },
+                    "position": "H8",
+                    "type": "TypeH",
+                    "nom": "RobotH8",
+                    "vitesse": "11m/s",
+                    "consoCPU": "45%"
+                }
+            ],
+            "courriel": "michael.phelps@example.com"
+        },
+        {
+            "robots": [
+                {
+                    "niveauBatterie": "100%",
+                    "memoire": "16GB",
+                    "cpu": {
+                        "description": "Processeur haute performance",
+                        "isDisponible": true,
+                        "numeroDeSerie": 109,
+                        "prix": 299.99,
+                        "nom": "HighPerformanceCPU"
+                    },
+                    "position": "I9",
+                    "type": "TypeI",
+                    "nom": "RobotI9",
+                    "vitesse": "10m/s",
+                    "consoCPU": "30%"
+                },
+                {
+                    "niveauBatterie": "80%",
+                    "memoire": "32GB",
+                    "cpu": {
+                        "description": "Processeur standard",
+                        "isDisponible": true,
+                        "numeroDeSerie": 110,
+                        "prix": 199.99,
+                        "nom": "StandardCPU"
+                    },
+                    "position": "J10",
+                    "type": "TypeJ",
+                    "nom": "RobotJ10",
+                    "vitesse": "8m/s",
+                    "consoCPU": "50%"
+                }
+            ],
+            "courriel": "serena.williams@example.com"
+        },
+        {
+            "robots": [
+                {
+                    "niveauBatterie": "90%",
+                    "memoire": "8GB",
+                    "cpu": {
+                        "description": "Processeur rapide",
+                        "isDisponible": true,
+                        "numeroDeSerie": 111,
+                        "prix": 249.99,
+                        "nom": "FastCPU"
+                    },
+                    "position": "K11",
+                    "type": "TypeK",
+                    "nom": "RobotK11",
+                    "vitesse": "12m/s",
+                    "consoCPU": "40%"
+                },
+                {
+                    "niveauBatterie": "70%",
+                    "memoire": "16GB",
+                    "cpu": {
+                        "description": "Processeur basse consommation",
+                        "isDisponible": true,
+                        "numeroDeSerie": 112,
+                        "prix": 149.99,
+                        "nom": "LowPowerCPU"
+                    },
+                    "position": "L12",
+                    "type": "TypeL",
+                    "nom": "RobotL12",
+                    "vitesse": "6m/s",
+                    "consoCPU": "20%"
+                }
+            ],
+            "courriel": "roger.federer@example.com"
+        },
+        {
+            "robots": [
+                {
+                    "niveauBatterie": "85%",
+                    "memoire": "12GB",
+                    "cpu": {
+                        "description": "Processeur milieu de gamme",
+                        "isDisponible": true,
+                        "numeroDeSerie": 113,
+                        "prix": 179.99,
+                        "nom": "MidRangeCPU"
+                    },
+                    "position": "M13",
+                    "type": "TypeM",
+                    "nom": "RobotM13",
+                    "vitesse": "9m/s",
+                    "consoCPU": "35%"
+                },
+                {
+                    "niveauBatterie": "95%",
+                    "memoire": "64GB",
+                    "cpu": {
+                        "description": "Processeur haute capacité",
+                        "isDisponible": true,
+                        "numeroDeSerie": 114,
+                        "prix": 399.99,
+                        "nom": "HighCapacityCPU"
+                    },
+                    "position": "N14",
+                    "type": "TypeN",
+                    "nom": "RobotN14",
+                    "vitesse": "15m/s",
+                    "consoCPU": "60%"
+                }
+            ],
+            "courriel": "lionel.messi@example.com"
+        },
+        {
+            "robots": [
+                {
+                    "niveauBatterie": "75%",
+                    "memoire": "32GB",
+                    "cpu": {
+                        "description": "Processeur standard",
+                        "isDisponible": true,
+                        "numeroDeSerie": 115,
+                        "prix": 199.99,
+                        "nom": "StandardCPU"
+                    },
+                    "position": "O15",
+                    "type": "TypeO",
+                    "nom": "RobotO15",
+                    "vitesse": "7m/s",
+                    "consoCPU": "25%"
+                },
+                {
+                    "niveauBatterie": "65%",
+                    "memoire": "16GB",
+                    "cpu": {
+                        "description": "Processeur milieu de gamme",
+                        "isDisponible": true,
+                        "numeroDeSerie": 116,
+                        "prix": 179.99,
+                        "nom": "MidRangeCPU"
+                    },
+                    "position": "P16",
+                    "type": "TypeP",
+                    "nom": "RobotP16",
+                    "vitesse": "11m/s",
+                    "consoCPU": "45%"
+                }
+            ],
+            "courriel": "naomi.osaka@example.com"
+        },
+        {
+            "robots": [
+                {
+                    "niveauBatterie": "100%",
+                    "memoire": "16GB",
+                    "cpu": {
+                        "description": "Processeur haute performance",
+                        "isDisponible": true,
+                        "numeroDeSerie": 117,
+                        "prix": 299.99,
+                        "nom": "HighPerformanceCPU"
+                    },
+                    "position": "Q17",
+                    "type": "TypeQ",
+                    "nom": "RobotQ17",
+                    "vitesse": "10m/s",
+                    "consoCPU": "30%"
+                },
+                {
+                    "niveauBatterie": "80%",
+                    "memoire": "32GB",
+                    "cpu": {
+                        "description": "Processeur standard",
+                        "isDisponible": true,
+                        "numeroDeSerie": 118,
+                        "prix": 199.99,
+                        "nom": "StandardCPU"
+                    },
+                    "position": "R18",
+                    "type": "TypeR",
+                    "nom": "RobotR18",
+                    "vitesse": "8m/s",
+                    "consoCPU": "50%"
+                }
+            ],
+            "courriel": "lewis.hamilton@example.com"
+        },
+        {
+            "robots": [
+                {
+                    "niveauBatterie": "90%",
+                    "memoire": "8GB",
+                    "cpu": {
+                        "description": "Processeur rapide",
+                        "isDisponible": true,
+                        "numeroDeSerie": 119,
+                        "prix": 249.99,
+                        "nom": "FastCPU"
+                    },
+                    "position": "S19",
+                    "type": "TypeS",
+                    "nom": "RobotS19",
+                    "vitesse": "12m/s",
+                    "consoCPU": "40%"
+                },
+                {
+                    "niveauBatterie": "70%",
+                    "memoire": "16GB",
+                    "cpu": {
+                        "description": "Processeur basse consommation",
+                        "isDisponible": true,
+                        "numeroDeSerie": 120,
+                        "prix": 149.99,
+                        "nom": "LowPowerCPU"
+                    },
+                    "position": "T20",
+                    "type": "TypeT",
+                    "nom": "RobotT20",
+                    "vitesse": "6m/s",
+                    "consoCPU": "20%"
+                }
+            ],
+            "courriel": "simone.biles@example.com"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "emails" : [ {
+    "type" : "Utilisateur",
+    "courriel" : "user1@example.com",
+    "pseudo" : "UserOne",
+    "motDePasse" : "userPassword789",
+    "telephone" : "514",
+    "nom" : "Testeur",
+    "prenom" : "User",
+    "nomDeCompagnie" : "Compagnie",
+    "interets" : [ "Art", "Robots" ],
+    "confirmed" : false,
+    "capaciteFabrication" : 0
+  }, {
+    "type" : "Fournisseur",
+    "courriel" : "sales@fabcorp.com",
+    "pseudo" : "FabSupp",
+    "motDePasse" : "securePassword456",
+    "telephone" : "514",
+    "nom" : "",
+    "prenom" : "",
+    "nomDeCompagnie" : "",
+    "interets" : [ ],
+    "confirmed" : false,
+    "capaciteFabrication" : 20
+  } ]
+}
