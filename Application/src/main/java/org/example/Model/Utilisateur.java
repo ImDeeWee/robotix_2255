@@ -5,10 +5,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.ArrayList;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
 /**
- * Cette classe est utilisé pour les comptes utilisateur
+ * Cette classe représente les comptes d'uttilisateur
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Utilisateur extends Compte {
     private String nom;
     private String prenom;

@@ -3,15 +3,15 @@ package org.example.Model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
 /**
- * Cette classe est utilisé pour les comptes fournisseurs.
+ * Cette classe représente les comptes de fournisseurs.
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Fournisseur extends Compte {
     private Integer capaciteFabrication;
 
     /**
-     * Constructeur des fournisseur qui extend du constructeur de la classe
+     * Constructeur des fournisseurs qui extend du constructeur de la classe
      * {@link org.example.Model.Compte}.
      * 
      * @param courriel            le courriel associé au compte.
