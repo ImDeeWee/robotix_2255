@@ -8,105 +8,71 @@ Le projet Robotix est une application complète de gestion de robots et de compo
 1. **S'inscrire** : Créer un compte utilisateur ou fournisseur.
 2. **Se connecter** : Accéder à son compte existant.
 3. **Gérer son Profil** : Modifier les informations de son profil.
-4. **Enregistrer un Robot** : Ajouter un nouveau robot à sa flotte.
-5. **Acheter des Composantes** : Acheter des composantes pour construire ou améliorer des robots.
-6. **Gérer les Tâches** : Créer, consulter, et assigner des tâches aux robots.
+4. **Gérer ses robots** : Ajouter un nouveau robot à sa flotte.
+5. **Gérer ses composantes** : Acheter des composantes pour construire ou améliorer des robots.
 7. **Gérer les Activités** : Créer, consulter, et assigner des activités aux robots.
 8. **Modifier son profil** : Modifier les données du profil.
+9. **Voir ses notifications** : Problèmes avec ses robots, nouvelle activité lié avec les intérêts.
+10. **Gérer ses abonnements** : Système de following entre utilisateur.
+11. **Trouver un fournisseur**: Pour acheter les composantes pour robots
 
 ### Pour les Fournisseurs
 1. **Gérer son Inventaire** : Ajouter, supprimer, et consulter les composantes disponibles à la vente.
 2. **Modifier son profil** : Modifier les données du profil.
+3. **Gestion de composantes** : Enregistrer, modifier ou supprimer des composantes.
 
 
-## Instructions pour le prototype
+## Organisation des fichiers
+├── exigences/ -- Dossier contenant les artefacts de l'exigence (diagramme de cas d'utilisation) 
+├── analyse/ -- Dossier contenant les artefacts de l'analyse (diagramme d'activités) 
+├── conception/ -- Dossier contenant les artefacts de la conception (diagramme de classes et diagramme de séquence) 
+├── application/ -- Dossier contenant tous les artefacts de l'implémentation 
+│   ├── doc/ -- Dossier contentant la documentation de l'application générée avec Javadoc 
+│   ├── src/ -- Dossier contentant le code source de l'application
+│   ├── test/ -- Dossier contentant les tests unitaires JUnit
+│   └── robotix.jar
+└── README.md  -- Manuel d'instruction
+└── rapport.html  -- Rapport des changements depuis la dernière version.
+|-- Implementation/ -- Dossier contenant le prototype nom complet
 
-### Inscription
-1. Choisir l'option s'inscrire.
-2. Suivre les indications pour les données du compte.
-3. Création de l'email puisque celui-ci n'existe pas. Choisir un mot de passe.
-4. Accéder à l'email en choisissant l'option 3.
-5. Aller à la confirmation de l'email.
-6. Retourner au menu principal.
-7. Se connecter.
+## Description des données de bases
 
-### Connexion Utilisateur
-1. Choisir l'option se connecter.
-2. Prendre un compte utilisateur.
-3. Modiifer le profil (optionnel)
-4. Acheter des composantes.
-5. Enregistrer un robot avec les composantes achetées.
-6. Gérer les tâches.
-7. Gérer les activités.
+Chaque utilisateur et fournisseur possèdent leurs propres données. Tous comptes doivent se connecter avec leur **courriel** et **mot de passe**:
 
-### Connexion Fournisseur
-1. Choisir l'option se connecter.
-2. Prendre un compte fournisseur.
-3. Modiifer le profil (optionnel)
-4. Gérer les composantes de l'inventaire.
+## UTILISATEUR
 
+1. Nom
+2. Prénom
+3. Pseudo
+4. Type de compte (Utilisateur)
+5. Numéro de téléphone
+6. Nom de compagnie (Optionnel)
+7. Liste d'intérêts
+8. Ses followers
+9.  Les comptes qu'il follow.
 
-### Comptes disponibles 
-Voisi un liste de 15 comptes disponibles lors de l'initialisation du logiciel:
+Ex d'un compte d'utilisateur de la plateforme utilisable (pseudo: CR7):
+courriel: cristiano.ronaldo@example.com
+mot de passe: password123
 
-### COMPTES FOURNISSEURS
-1. Nom: user1
-  email: cristiano.ronaldo@gmail.com
-  mdp: password1
+## FOURNISSEUR
 
-2. Nom: user2
-  email: lionel.messi@gmail.com
-  mdp: password2
-
-3. Nom: user3
-  email: roger.federer@gmail.com
-  mdp: password3
-
-4. Nom: user4
-  email: serena.williams@gmail.com
-  mdp: password4
-
-5. Nom: user5
-  email: lebron.james@gmail.com
-  mdp: password5
+1. Type de compte (Fournisseur)
+2. Pseudo
+3. Numéro de téléphone
+4. Capacité de fabrication
 
 
-### COMPTES UTILISATEURS
-6. pseudo: user6
-   email:ansu.fati@gmail.com
-   mdp: pasword6
-7. pseudo: user7
-   email:pedri.gonzalez@gmail.com
-   mdp: pasword7
+Ex d'un compte de fournisseur de la plateforme utilisable (pseudo: TechSupplier1):
+courriel: supplier1@techcorp.com
+mot de passe: password123
 
-8. pseudo: user8
-   email:gerard.pique@gmail.com
-   mdp: pasword8
+## Instruction pour installer le projet
 
-9. pseudo: user9
-   email:sergio.busquets@gmail.com
-   mdp: pasword9
+Avoir Java JDK 21 minimum.
 
-10. pseudo: user10
-   email:frenkie.dejong@gmail.com
-   mdp: pasword10
+Après le téléchargement du projet, dirigez vous au repertoire du projet nommé _robotix_2255_ l'aide du terminal et exécuter ces commandes:
+1. cd Application
+2. java -jar robotix_255.jar
 
-11. pseudo: user11
-   email:stephen.curry@gsw.com
-   mdp: pasword11
 
-12. pseudo: user12
-   email:lewis.hamilton@f1.com
-   mdp: pasword12
-
-13. pseudo: user13
-   email:kdot@rap.us
-   mdp: pasword13
-
-14. pseudo: user14
-   email:ye@goat.com
-   mdp: pasword14
-
-15. pseudo: user15
-   email:serialKiller@no63.com
-   mdp: pasword15
