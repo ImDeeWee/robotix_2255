@@ -24,17 +24,17 @@ Le projet Robotix est une application complète de gestion de robots et de compo
 
 ## Organisation des fichiers
 
-├── exigences/            # Dossier contenant les artefacts de l'exigence (diagramme de cas d'utilisation)
-├── analyse/              # Dossier contenant les artefacts de l'analyse (diagramme d'activités)
-├── conception/           # Dossier contenant les artefacts de la conception (diagramme de classes et diagramme de séquence)
-├── application/          # Dossier contenant tous les artefacts de l'implémentation
-│   ├── doc/              # Dossier contenant la documentation de l'application générée avec Javadoc
-│   ├── src/              # Dossier contenant le code source de l'application
-│   ├── test/             # Dossier contenant les tests unitaires JUnit
-│   └── robotix.jar       # Fichier exécutable de l'application
-├── Implementation/       # Dossier contenant le prototype nom complet
-├── README.md             # Manuel d'instruction
-└── rapport.html          # Rapport des changements depuis la dernière version
+- **exigences/**: Contient les artefacts de l'exigence tels que les diagrammes de cas d'utilisation.
+- **analyse/**: Contient les artefacts de l'analyse tels que les diagrammes d'activités.
+- **conception/**: Contient les artefacts de la conception, y compris les diagrammes de classes et de séquence.
+- **application/**: Contient tous les artefacts de l'implémentation.
+  - **doc/**: Documentation générée avec Javadoc.
+  - **src/**: Code source de l'application.
+  - **test/**: Tests unitaires JUnit.
+  - **robotix.jar**: Fichier exécutable de l'application.
+- **Implementation/**: Contient le prototype nom complet.
+- **README.md**: Manuel d'instruction.
+- **rapport.html**: Rapport des changements depuis la dernière version.
 
 
 ## Description des données de bases
