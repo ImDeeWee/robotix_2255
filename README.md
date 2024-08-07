@@ -31,10 +31,10 @@ Le projet Robotix est une application complète de gestion de robots et de compo
   - **doc/**: Documentation générée avec Javadoc.
   - **src/**: Code source de l'application.
   - **test/**: Tests unitaires JUnit.
-  - **robotix.jar**: Fichier exécutable de l'application.
 - **Implementation/**: Contient le prototype nom complet.
 - **README.md**: Manuel d'instruction.
 - **rapport.html**: Rapport des changements depuis la dernière version.
+- **robotix.jar**: Fichier exécutable de l'application.
 
 
 ## Description des données de bases
@@ -74,7 +74,6 @@ mot de passe: password123
 Avoir Java JDK 21 minimum.
 
 Après le téléchargement du projet, dirigez vous au repertoire du projet nommé _robotix_2255_ l'aide du terminal et exécuter ces commandes:
-1. cd Application
-2. java -jar robotix_255.jar
+1. java -jar robotix_255.jar
 
 
